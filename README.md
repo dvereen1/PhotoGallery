@@ -6,8 +6,9 @@ Click an image to expand it into full screen view and expose before, after, and 
 
 [Demo here](https://darianvereen.com/HTML_PHP/projects/photoGallery/photoGallery.php)
 
-## PHP Includes
-In the [photoGallery.php file](https://github.com/dvereen1/PhotoGallery/blob/main/photoGallery.php), you'll notice some includes.
+## Includes and Other Links
+
+In the [photoGallery.php file](https://github.com/dvereen1/PhotoGallery/blob/main/photoGallery.php), you'll notice some file includes and references which exist outside the current directory.
 
 `<?php include_once("headNoNav.php"); 
        include_once("Classes/photoGalleryPhotos.php");
@@ -16,5 +17,9 @@ In the [photoGallery.php file](https://github.com/dvereen1/PhotoGallery/blob/mai
 `<?php include_once("Classes/projectInfoModal.php");
        createProjectModal("Photo Gallery", $projectModalArr);
 ?>`
-  
-You can view these files at [PHP-Includes](https://github.com/dvereen1/PHP-Includes).
+
+`<link rel = "stylesheet" href = "/CSS/allProjectsModal.css">`
+
+`<script src = "/JS/allProjectsModal.js"></script>`
+
+You can view these files at [PHP-JS-CSS-Includes](https://github.com/dvereen1/PHP-JS-CSS-Includes).
